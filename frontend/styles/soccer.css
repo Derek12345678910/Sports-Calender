@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.reveal-sports{
+    position: absolute;
+    left: 6px;
+    top: 12px;
+}
+
+.reveal-sports:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.reveal-sports:active{
+    transform: scale(0.9);
+}
+
+.espn-home{
+    position: absolute;
+    left: 50px
+}
+
+.espn-home:hover{
+    transform: scale(1.05);
+}
+
+.date-input{
+    position: absolute;
+    left: 170px;
+    top: 13px;
+    border: 1px;
+    border-radius: 8px;
+    border-color: black;
+    border-style: solid;
+    padding: 5px;
+}
+
+.date-input:hover{
+    cursor: pointer;
+}
+
+.go-to-soccer{
+    position: absolute;
+    top: 20px;
+    left: 300px;
+    font-weight: 600;
+}
