@@ -1,7 +1,7 @@
 let url = 'http://127.0.0.1:5000/'
 
 // communicates with app.py to grab json file
-function fetchApi(sport){
+export function fetchApi(sport){
     const params = new URLSearchParams();
     params.append('sport', sport);
 
