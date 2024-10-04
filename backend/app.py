@@ -6,20 +6,6 @@ from collector import callmodule
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})
 
-# Steps to start the enviorment
-# 1 cd backend
-# 2 python -m venv venv
-# 3 source ./venv/bin/activate
-# 4 pip install -r req.txt
-
-# Steps to activate enviorment / backend server
-# 1 cd backed --> enter the backend directory
-# 2 source ./venv/bin/activate --> activate enviroment 
-# 3 python3 app.py --> run the server, if this does not work do
-# 4 sudo python3 app.py --> forces the computer to start the server
-
-# deactivate --> to deactivate
-
 @app.route('/data')    
 
 def get_data():
