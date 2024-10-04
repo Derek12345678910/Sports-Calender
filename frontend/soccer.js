@@ -1,10 +1,23 @@
 import dayjs from 'https://unpkg.com/dayjs@1.11.10/esm/index.js'
 import { fetchApi } from './data/apirequest.js'
 
-console.log(fetchApi('soccer','english'));
+let games = [];
+
 
 const today = dayjs();
 const formattedDate = today.format('YYYY-MM-DD')
 console.log(formattedDate)
 
 document.querySelector('.date-input').value = formattedDate
+
+let gamesHTML = '';
+
+games.forEach(game =>{
+    gamesHTML+= `
+    <div class="game-container">
+        <div class="team1-container">
+            <
+        </div>
+    </div>    
+    `
+})
