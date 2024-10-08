@@ -45,11 +45,8 @@ body{
     cursor: pointer;
 }
 
-.go-to-premier-league{
+.scores{
     position: absolute;
-    top: 2px;
-    left: 300px;
-    font-weight: 600;
-    color: black;
-    text-decoration: none;
+    left: 308px;
+    top: 17px;
 }

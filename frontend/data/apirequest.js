@@ -8,7 +8,7 @@ export function fetchApi(sport, league){
 
     const fullUrl = `${url}?${params.toString()}`;
 
-    fetch(fullUrl)
+    return fetch(fullUrl)
     .then(response => {
         // Check if response is OK
         if (!response.ok) {
